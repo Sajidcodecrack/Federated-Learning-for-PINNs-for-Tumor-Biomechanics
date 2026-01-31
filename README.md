@@ -1,21 +1,14 @@
-Below is a **clean, professional, research-grade `README.md`** suitable for a **GitHub repository accompanying an ML research paper**.
-It is written to match **academic standards**, clarify **non-clinical intent**, and present the **ML pipeline clearly**.
 
-You can directly copy-paste this into your repo.
-
----
-
-```md
 # Privacy-Preserving Multimodal Framework for Neuro-Oncological Biomechanics  
 **Federated Physics-Informed Learning with Agent-Based Orchestration**
 
-> ⚠️ **Research-Only Project**  
+>  **Research-Only Project**  
 > This repository implements a machine learning research framework.  
 > It is **not intended for clinical diagnosis, treatment planning, or medical decision-making**.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project presents a **privacy-preserving, physics-guided machine learning framework** for neuro-oncological biomechanics analysis using medical imaging data.
 
@@ -28,7 +21,7 @@ The system is designed **strictly for academic research and decision-support exp
 
 ---
 
-## 🧠 Motivation
+##  Motivation
 
 Current AI-based brain tumor analysis systems face several limitations:
 - Centralized data collection raises **privacy and regulatory concerns**
@@ -40,7 +33,7 @@ This project addresses these challenges by combining **federated learning**, **p
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 
@@ -66,7 +59,7 @@ No raw medical images or patient data are transmitted.
 
 ---
 
-## 📊 Data Description
+##  Data Description
 
 ### 1. Medical Imaging
 - Brain MRI images
@@ -87,7 +80,7 @@ Used to condition biomechanical behavior:
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
 ### 🔹 Physics-Informed Neural Networks (PINNs)
 - Models tumor-induced tissue deformation
@@ -112,14 +105,14 @@ The pipeline is organized into modular agents:
 
 ---
 
-## 📤 Inputs
+##  Inputs
 
 - Brain MRI image (2D slice or volume)
 - Corresponding metadata (CSV)
 
 ---
 
-## 📈 Outputs
+##  Outputs
 
 For each input sample, the system produces:
 - Relative biomechanical deformation map
@@ -127,11 +120,11 @@ For each input sample, the system produces:
 - Optional tumor category prediction
 - Interpretable textual explanation
 
-> ❗ No diagnosis, prognosis, or treatment recommendation is generated.
+>  No diagnosis, prognosis, or treatment recommendation is generated.
 
 ---
 
-## 🧪 Experimental Scope
+##  Experimental Scope
 
 - Research-focused ML pipeline
 - Designed for reproducibility and extension
@@ -143,7 +136,7 @@ For each input sample, the system produces:
 
 ---
 
-## 🔬 Novel Contributions
+##  Novel Contributions
 
 - Federated learning combined with physics-informed modeling
 - Privacy-preserving biomechanics analysis
@@ -153,7 +146,7 @@ For each input sample, the system produces:
 
 ---
 
-## 🧠 Ethical & Privacy Considerations
+##  Ethical & Privacy Considerations
 
 - Uses **only public, anonymized datasets**
 - No patient-identifiable information processed
@@ -162,7 +155,7 @@ For each input sample, the system produces:
 
 ---
 
-## 🗂️ Repository Structure
+##  Repository Structure
 
 ```
 
@@ -187,7 +180,7 @@ For each input sample, the system produces:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python
 - PyTorch / TensorFlow (PINNs)
@@ -197,17 +190,17 @@ For each input sample, the system produces:
 
 ---
 
-## 📄 Associated Paper
+##  Associated Paper
 
 This repository accompanies the research paper:
 
 > **A Privacy-Preserving Multimodal Framework for Neuro-Oncological Biomechanics Using Federated Physics-Informed Learning and Agent-Based Orchestration**
 
-📌 *Paper link will be added upon publication.*
+ *Paper link will be added upon publication.*
 
 ---
 
-## 🚧 Limitations
+##  Limitations
 
 - Simplified biomechanical assumptions
 - Simulated federated environment
@@ -216,7 +209,7 @@ This repository accompanies the research paper:
 
 ---
 
-## 🚀 Future Work
+##  Future Work
 
 - 3D biomechanical modeling
 - Advanced tissue physics
@@ -226,13 +219,13 @@ This repository accompanies the research paper:
 
 ---
 
-## 📜 License
+##  License
 
 This project is released under the **MIT License** for academic and research use.
 
 ---
 
-## 🤝 Citation
+##  Citation
 
 If you use this work in your research, please cite:
 
@@ -248,7 +241,7 @@ year={2026}
 
 ---
 
-## 📬 Contact
+##  Contact
 
 For academic inquiries or collaboration:
 - Open an issue
@@ -258,15 +251,4 @@ For academic inquiries or collaboration:
 
 **Disclaimer:**  
 This software is provided for research purposes only and should not be used in clinical or diagnostic workflows.
-```
 
----
-
-If you want, I can also:
-
-* Align this README with **IEEE / Springer paper style**
-* Create a **`paper/README.md`** for reviewers
-* Add **reproducibility instructions**
-* Write a **Methods section directly reusable in your paper**
-
-Just tell me 👍
